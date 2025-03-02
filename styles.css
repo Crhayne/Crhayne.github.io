@@ -1,0 +1,159 @@
+*{
+    font-family: "Candara", sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+.body-class {
+    background-color: #b3c7e8; 
+    color: #2e3f59;
+}
+
+.header-class {
+    background-color: #395a91; 
+    color: #FFFFFF; 
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-class {
+    background-color: #132036; 
+    color: #FFFFFF; 
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav-class a {
+    color: #FFFFFF; 
+    text-decoration: none; /* So links are not underlined */
+    padding: 10px 15px;
+}
+
+.nav-class a:hover {
+    color: #b9d1fa; 
+}
+
+.nav-class .active {
+    font-weight: bold; 
+}
+
+.hero-section-class, .origin-section-class, .testimonial-section-class, .faq-section-class, .newsletter-section-class, .contact-section-class {
+    padding: 20px;
+}
+
+.title-class, .section-title-class {
+    color: #1a3753; 
+}
+
+.text-class {
+    color: #2e3f59; 
+}
+
+.image-class {
+    border: 5px solid #FFFFFF; 
+    border-radius: 8px;
+    max-width: 100%; 
+    height: auto; 
+}
+
+.blockquote-class {
+    font-style: italic;
+    color: #1a3753;
+}
+
+.cite-class {
+    color: #1a3753;
+}
+
+.faq-class {
+    margin-bottom: 15px;
+}
+
+.faq-question-class {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.form-class input, .form-class textarea {
+    background: #FFFFFF; 
+    color: #1a3753; 
+    border: 1px solid #BDC3C7; 
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.button-class {
+    background-color: #1a3753; 
+    color: #FFFFFF; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.button-class:hover {
+    background-color: #132036; 
+}
+
+.footer-class {
+    background-color: #05182b; 
+    color: #a6afb1; 
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    width: 90%; 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #b3c7e8;
+    color: #2e3f59; 
+}
+
+input, textarea {
+    background: #ffffff;
+    color: #1a3753;
+    border: 1px solid #BDC3C7;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.button-class {
+    background-color: #1a3753;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+input:focus, textarea:focus, button:focus {
+    outline: 3px solid #0c57a7; 
+}
+
+@media screen and (max-width: 768px) {
+    .body-class {
+        font-size: 14px;
+    }
+
+    .header-class {
+        font-size: 20px;
+    }
+
+    .nav-class {
+        padding: 15px;
+    }
+
+    .nav-class a {
+        padding: 8px 15px;
+    }
+
+    .form-class {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .footer-class {
+        font-size: 12px;
+    }
+}
